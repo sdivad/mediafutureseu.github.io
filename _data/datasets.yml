@@ -1,7 +1,7 @@
 - url: 'https://doi.org/10.5683/SP2/IMISPE'
   name: 'COVID-19 Fact-checkers Dataset'
   description: 'The COVID-19 Fact Checkers Dataset is a comprehensive list of over 200 active fact-checking organizations and groups that verify COVID-19 misinformation. The dataset is maintained by the Ryerson University’s Social Media Lab as part of an international initiative to study the proliferation of COVID-19 misinformation and to map fact-checking activities around the world in partnership with the World Health Organization (WHO). It was created to provide the public with a better understanding of the COVID-19 fact-checking ecosystem and is intended for use by policy makers and others to make data-informed decisions in the fight against COVID-19 misinformation.'
-  provider: 'Ryerson University'
+  provider: 'Social Media Lab - Ryerson University'
   category: 'Fact-checkers'
 
 - url: 'https://www.poynter.org/ifcn-covid-19-misinformation/page/2/'
@@ -28,6 +28,13 @@
   provider: 'Webhose'
   category: 'News|Blogs|Discussions'
 
+- url: 'https://osf.io/n6upx/'
+  name: 'COVID19 Infodemics Observatory'
+  description: 'Results from the analysis of infodemics due to unreliable content in online social media.
+Specifically, here we consider public posts on Twitter, analyzed with state-of-the-art machine learning techniques for: (1) population emotional state; (2) bot/human classification; (3) news reliability.'
+  provider: 'CoMuNe Lab - Fondazione Bruno Kessler'
+  category: 'Twitter'
+
 - url: 'https://zenodo.org/record/4024154#.X6UhtXWYXRY'
   name: 'CMU-MisCov19'
   description: 'Twitter misinformation dataset called "CMU-MisCov19" with 4573 annotated tweets over 17 themes around the COVID-19 discourse. We also present our annotation codebook for the different COVID-19 themes on Twitter, along with their descriptions and examples, for the community to use for collecting further annotations. Further details related to the dataset, and our analysis based on this dataset can be found at https://arxiv.org/abs/2008.00791. In adherence to the Twitter’s terms and conditions, we do not provide the full tweet JSONs but provide a ".csv" file with the tweet IDs so that the tweets can be rehydrated. We also provide the annotations, and the date of creation for each tweet for the reproduction of the results of our analyses.'
@@ -37,7 +44,7 @@
 - url: 'https://github.com/echen102/COVID-19-TweetIDs'
   name: 'COVID-19-TweetIDs'
   description: 'Ongoing collection of tweets IDs associated with the novel coronavirus COVID-19 (SARS-CoV-2), which commenced on January 28, 2020. We used the Twitter’s search API to gather historical Tweets from the preceding 7 days, leading to the first Tweets in our dataset dating back to January 21, 2020. We leveraged Twitter’s streaming API to follow specified accounts and also collect in real-time tweets that mention specific keywords. To comply with Twitter’s Terms of Service, we are only publicly releasing the Tweet IDs of the collected Tweets. The data is released for non-commercial research use.'
-  provider: 'University of Southern California,'
+  provider: 'University of Southern California'
   category: 'Twitter'
 
 - url: 'https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset#files'
