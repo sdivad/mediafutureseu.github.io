@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Datasets | MediaFutures
-description: All MediaFutures Datasets
+title: Data science | MediaFutures
+description: MediaFutures data science tools
 keywords: mediafutures,datasets
-url: https://mediafutureseu.github.io/datasets
+url: https://mediafutureseu.github.io/datascience
 custom_css: list.css
 custom_js: list.js
 ---
@@ -11,15 +11,15 @@ custom_js: list.js
 <div class="header squad-header">
     <div class="Grid container">
         <div id="header-text" class="Grid-cell">
-            <h1 class="large-title">Datasets</h1>            
-            <h1 class="squad-subheading">Open Datasets by Third Parties about Coronavirus and Misinformation</h1>
+            <h1 class="large-title">Data science</h1>            
+            <h1 class="squad-subheading">Esadfsafsdsential data science Python packages</h1>
         </div>
     </div>
 </div>
 
 <div class="section">
     <div class="Grid dataset-container container">
-        {% for item in site.data.datasets %}
+        {% for item in site.data.datascience %}
         <div class="Grid-cell sizeFull dataset">
             <div>
                 <h2>{{ item["name"] }}</h2>
@@ -28,10 +28,10 @@ custom_js: list.js
                 {{ item["description"] }}
             </div>
 
-            {% if item["url"] %}
-            <button onclick="window.open('{{ item["url"] }}')" type="button" class="Button">Access to data</button>
+            {% if item["project_url"] %}
+            <button onclick="window.open('{{ item["project_url"] }}')" type="" class="Button">View tool</button>
             {% endif %}
-
+            
         </div>
         {% endfor %}
     </div>

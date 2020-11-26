@@ -1,0 +1,34 @@
+- project_url: 'https://processing.org/'
+  code_url: 'https://github.com/processing'
+  name: 'Processing'
+  description: 'Flexible software sketchbook and a language for learning how to code within the context of the visual arts'
+
+- project_url: 'https://openframeworks.cc/'
+  code_url: 'https://github.com/openframeworks/openFrameworks'
+  name: 'OpenFrameworks'
+  description: 'Community-developed cross platform toolkit for creative coding in C++'
+
+- project_url: 'https://puredata.info/'
+  code_url: 'https://github.com/pure-data/pure-data'
+  name: 'PureData'
+  description: 'Free real-time computer music system'
+
+- project_url: 'https://vvvv.org/'
+  code_url: 'https://github.com/vvvv'
+  name: 'vvvv'
+  description: 'Hybrid visual/textual live-programming environment for easy prototyping and development.'
+
+- project_url: 'https://libcinder.org/'
+  code_url: 'https://github.com/Cinder/cinder'
+  name: 'Cinder'
+  description: 'Community-developed, free and open source library for professional-quality creative coding in C++'
+
+- project_url: 'https://magenta.tensorflow.org/'
+  code_url: 'https://github.com/magenta'
+  name: 'Magenta'
+  description: 'Open source research project exploring the role of machine learning as a tool in the creative process'
+
+- project_url: 'https://d3js.org/'
+  code_url: 'https://github.com/d3/d3'
+  name: 'D3.js'
+  description: 'JavaScript library for visualizing data using web standards'

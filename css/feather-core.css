@@ -1647,12 +1647,13 @@ body {
   line-height: 1rem;
 }
 a {
-  color: #1b95e0;
+  color: #e6068c;
   text-decoration: none;
+  target: "_blank";
 }
 a:hover,
 a:focus {
-  color: #1b95e0;
+  color: #e6068c;
   text-decoration: underline;
 }
 p {

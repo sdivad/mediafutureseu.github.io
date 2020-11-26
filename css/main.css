@@ -47,7 +47,7 @@ body {
 }
 
 .section {
-  padding: calc(var(--feather-grid-mega) * 2) 0;
+  padding: calc(var(--feather-grid-mega) * 1) 0;
 }
 
 .container {
@@ -58,7 +58,7 @@ body {
 /* Navigation wrapper */
 
 nav {
-  background-color: #600060;
+  background-color: white;
   padding: var(--feather-grid-xsmall);
   width: 100%;
   position: fixed;
@@ -84,7 +84,7 @@ a.home-link, a.nav-link {
 }
 
 a.home-link:link, a.home-link:visited, .home-text {
-  color: white;
+  color: #e6068c;
   font-weight: var(--feather-font-weight-bold);
   margin: 0;
   margin-right: var(--feather-grid-large);
@@ -92,7 +92,7 @@ a.home-link:link, a.home-link:visited, .home-text {
 }
 
 a.home-link:hover, a.home-link:active {
-  color: var(--tw-color-blue-faded);
+  color: #e6068c;
 }
 
 span.Icon--caretDown {
@@ -108,17 +108,58 @@ span.Icon--caretDown {
   margin: 0;
 }
 
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: #03336c;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
 .nav-list-item {
   display: inherit;
   margin-left: var(--feather-grid-large);
 }
 
 a.nav-link:link, a.nav-link:visited {
-  color: white;
+  color: #03336c;
 }
 
 a.nav-link:hover, a.nav-link:active {
-  color: var(--tw-color-blue-faded);
+  color: #03336c;
 }
 
 .home-link {
@@ -136,12 +177,12 @@ a.nav-link:hover, a.nav-link:active {
 /* Headers */
 
 .header, .footer {
-  background-color: #600060;
+  background-color: #1b123d;
   color: white;
 }
 
 .simple-header {
-  padding-top: calc(var(--feather-grid-mega) * 3);
+  padding-top: calc(2 * var(--feather-grid-mega));
   padding-bottom: var(--feather-grid-mega);
 }
 
@@ -153,8 +194,8 @@ a.nav-link:hover, a.nav-link:active {
 /* Footer */
 
 .footer {
-  padding-top: var(--feather-grid-mega);
-  padding-bottom: var(--feather-grid-mega);
+  padding-top: 1rem;
+  /*padding-bottom:  1rem;*/
 }
 
 .footer .Grid-cell {

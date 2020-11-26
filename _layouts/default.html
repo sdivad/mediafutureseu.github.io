@@ -65,9 +65,23 @@
                 <a class="nav-link" href="{{ site.baseurl }}/datasets">Datasets</a>
             </li>
 
-            <li class="nav-list-item">
+            <!--li class="nav-list-item">
                 <a class="nav-link" href="{{ site.baseurl }}/tools">Tools</a>
-            </li>
+                    <ul class="dropdown">
+                        <li class="nav-list-item"><a class="nav-link" href="{{ site.baseurl }}/tools">Digital methods</a></li>
+                        <li class="nav-list-item"><a class="nav-link" href="{{ site.baseurl }}/tools">Data science</a></li>
+                        <li class="nav-list-item"><a class="nav-link" href="{{ site.baseurl }}/tools">Digital art</a></li>
+                    </ul>
+            </li-->
+
+            <li class="dropdown nav-list-item">
+              Tools
+              <div class="dropdown-content">
+                <a class="nav-link" href="{{ site.baseurl }}/digitalmethods">Digital methods</a>
+                <a class="nav-link" href="{{ site.baseurl }}/datascience">Data Science</a>
+                <a class="nav-link" href="{{ site.baseurl }}/digitalart">Digital art</a>
+              </div>
+            </li>            
 
             <li class="nav-list-item">
                 <a class="nav-link" href="{{ site.baseurl }}/training">Training</a>
@@ -94,7 +108,7 @@
                 <h3 class="xsmall-margin">
                     <!--a class="foot-link" target="_blank" href="https://about.twitter.com/"-->Contact us!<!--/a-->
                 </h3>
-                <a target="_blank" href="https://cordis.europa.eu/project/id/951962">
+                <a target="_blank" href="https://mediafutures.eu">
                     <img alt="" src="./assets/web.png" style="width: 20px; height: auto;"/>
                 </a>&nbsp
                 <a target="_blank" href="https://twitter.com/MediaFuturesEU">
