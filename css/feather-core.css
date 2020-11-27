@@ -1649,7 +1649,6 @@ body {
 a {
   color: #e6068c;
   text-decoration: none;
-  target: "_blank";
 }
 a:hover,
 a:focus {
